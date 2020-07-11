@@ -8,6 +8,8 @@ let package = Package(
         .library(name: "AKNumericFormatter", targets: ["AKNumericFormatter"])
     ],
     targets: [
-        .target(name: "AKNumericFormatter", path: "AKNumericFormatter/AKNumericFormatter", exclude: [])
+        .target(name: "AKNumericFormatter",
+                path: "AKNumericFormatter/AKNumericFormatter"
+        ),
     ]
 )

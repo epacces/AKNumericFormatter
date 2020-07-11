@@ -4,6 +4,7 @@
 //
 
 @import UIKit;
+@import Foundation;
 @class AKNumericFormatter;
 
 @interface UITextField(AKNumericFormatter)

@@ -3,6 +3,8 @@
 // file 'LICENSE', which is part of this source code package.
 //
 
+@import Foundation;
+
 @interface NSString(AKNumericFormatter)
 
 // Will return nil if filterBlock is nil

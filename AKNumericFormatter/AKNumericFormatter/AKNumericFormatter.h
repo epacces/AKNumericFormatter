@@ -3,6 +3,8 @@
 // file 'LICENSE', which is part of this source code package.
 //
 
+@import Foundation;
+
 typedef NS_ENUM(NSUInteger, AKNumericFormatterMode) {
   AKNumericFormatterStrict,
   AKNumericFormatterFillIn,
